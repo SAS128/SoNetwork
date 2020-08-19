@@ -1,15 +1,10 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HomeNetWork.aspx.cs" Inherits="Network.HomeNetWork" MasterPageFile="~/Site.Master" %>
 
-<!DOCTYPE html>
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
-</body>
-</html>
+ 
+    <asp:Image ID="Image1" runat="server" Height="172px" Width="146px" />
+    <button type="button" class="btn btn-primary">Загрузить фото</button>
+
+ 
+</asp:Content>
